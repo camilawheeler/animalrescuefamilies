@@ -2,38 +2,26 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand {
+  max-width: 4rem;
+  margin-right: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+.navbar-brand img {
+  width: 100%;
+  height: 100%;
+  margin-top: 0.5rem;
+  max-width: 6rem;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-dark {
+  background-color: #9273F8;
+  margin-bottom: 2rem;
+  min-height: 6rem;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.site-footer {
+  background-color: #9273F8;
+  margin-bottom: 2rem;
+  min-height: 6rem;
 }
